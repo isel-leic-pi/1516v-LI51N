@@ -24,14 +24,11 @@ function middleware1(req, rsp, next) {
 }
 
 function middleware2(req, rsp, next) {
-
     setTimeout(delayResponse, 2000);
 
     function delayResponse() {
         console.log("middleware 2 called");
         next();
     }
-
-
 }
 
