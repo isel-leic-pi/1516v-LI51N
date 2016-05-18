@@ -1,0 +1,80 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Note1",
+      "content": "Note 1 content",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": 2,
+      "title": "Note2",
+      "content": "Note 2 content",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": 5,
+      "title": "Note2",
+      "content": "Note 2 content",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ],
+      "relevance": 2
+    },
+    {
+      "id": 4,
+      "title": "Note4",
+      "content": "New Note 4 content",
+      "tags": [
+        "tag12"
+      ],
+      "relevance": 2
+    },
+    {
+      "title": "Note10",
+      "content": "New Note 10 content",
+      "tags": [
+        "tag12"
+      ],
+      "relevance": 2,
+      "id": 6
+    },
+    {
+      "title": "Note10",
+      "content": "New Note 10 content",
+      "tags": [
+        "tag12"
+      ],
+      "relevance": 2,
+      "id": 7
+    },
+    {
+      "title": "Note10",
+      "content": "New Note 10 content",
+      "tags": [
+        "tag12"
+      ],
+      "relevance": 2,
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
