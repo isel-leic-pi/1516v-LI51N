@@ -31,3 +31,5 @@ node_modules
 
 #local code not tu publish for github
 local_code
+
+bower_components
