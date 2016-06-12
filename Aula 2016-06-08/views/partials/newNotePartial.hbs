@@ -1,0 +1,29 @@
+<h2>Create a new Note</h2>
+<form method="POST" action="/notes" enctype="multipart/form-data">
+
+    <p>
+        <label>Title: </label>
+        <input type="text" id="title" name="title" title="Title" placeholder="Insert title here...">
+    </p>
+
+    <p>
+        <label>Description: </label>
+        <textarea id="content" name="content" rows="10" cols="15"></textarea>
+    </p>
+
+    <p>
+        <label>Important: </label>
+        <input type="number" min="1" max="5" name="relevance" value="1">
+    </p>
+
+    <p>
+        <label>Attachment: </label>
+        <input type="file" name="attachment">
+    </p>
+
+    <input type="submit" value="Create new Note" id="new-note">
+
+</form>
+
+
+
