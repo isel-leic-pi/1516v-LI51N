@@ -1,0 +1,7 @@
+{{#each notes}}
+    {{id}},{{title}},{{content}},[
+            {{#each tags as |tag|}}
+                {{tag}}
+            {{/each}}],
+        {{relevance}}
+{{/each}}

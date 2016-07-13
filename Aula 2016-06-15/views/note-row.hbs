@@ -1,0 +1,12 @@
+<tr>
+    <td><a href="/notes/{{note.id}}">{{note.title}}</a></td>
+    <td>{{note.content}}</td>
+    <td>
+        <ul>
+            {{#each note.tags as |tag|}}
+                <li>{{tag}}</li>
+            {{/each}}
+        </ul>
+    </td>
+    <td>{{#rel note.relevance}}{{/rel}}</td>
+</tr>

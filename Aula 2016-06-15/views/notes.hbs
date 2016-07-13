@@ -1,0 +1,38 @@
+<script src="js/notes.js">
+</script>
+
+
+<h1>{{title}}</h1>
+
+{{#foo}}{{/foo}}
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Tags</th>
+            <th>Relevance</th>
+        </tr>
+    </thead>
+    <tbody id="notes-rows">
+        {{#each notes}}
+            <tr>
+                <td><a href="/notes/{{id}}">{{title}}</a></td>
+                <td>{{content}}</td>
+                <td>
+                    <ul>
+                    {{#each tags as |tag|}}
+                        <li>{{tag}}</li>
+                    {{/each}}
+                    </ul>
+                </td>
+                <td>{{#rel relevance}}{{/rel}}</td>
+            </tr>
+        {{/each}}
+
+    </tbody>
+
+</table>
+
+{{> newNotePartial}}
